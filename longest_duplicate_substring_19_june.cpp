@@ -4,6 +4,7 @@ public:
     vector<int> power;
     int d=26;
     
+    //Rabin carp
     string check(string &s,int k){
         map<int,vector<int> > match;
         int hash=0;
